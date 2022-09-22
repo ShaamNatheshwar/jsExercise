@@ -1,0 +1,540 @@
+Exercises
+
+1) create a HTML from scratch
+
+2) Place css and js respectively
+
+3) make an simple readable addition expression
+
+
+
+
+4) Perform a single line comment
+
+5) perform a multi line comment
+
+
+
+
+6)  to create a different ways variable holding data type
+
+7) to make multiple line variable
+
+8) create undefined variable
+
+9) create variable without keywords
+
+10) play with global scope and local scope of let and try reassining values
+
+11)use hoisted over the necessary keyword
+
+
+
+
+
+12) create a const array
+
+13) reassign
+
+14) add a newValue to the constArray
+
+15) create a const object
+
+16) reassign
+
+17) add a newValue
+
+18) use the global and local scope over const
+
+19) combine all the variable keyWords over global and local scope
+
+
+
+
+20) add string and number, number and a number, number and a string
+
+21) find the variable type
+
+22) find the variable instance
+
+
+
+23) create a basic function syntax
+
+24) use return over a function
+
+
+
+25) create a object of anything
+
+26) use different ways to grab the key and value in an object
+
+27) use a function inside object
+
+28) another method to create objects of number, bool, String
+
+
+
+
+29) find the length of the given string
+30) escape a string
+31) perform various backslash operations on string
+
+
+
+
+32) extract a part of string and display it onto new string 
+along with other 2 keywords
+
+33) replace a specific value with another string
+
+34) To replace case insensitive, use a regular expression with an
+
+35) To replace all matches, use a regular expression with a 
+
+36) convert a string into upperCase
+
+37) convert a string into lowerCase
+
+38) joins two or more strings
+
+39) remove white spaces from a string
+
+40) remove white spaces from start
+
+41) remove white spaces from end of a string
+
+42) method returns the character at a specified index (position) in a string:
+
+43)  method returns the unicode of the character at a specified index in a string:
+
+44) access the string property
+
+45) and change it to another value
+
+46) A string can be converted to an array 
+
+47) method returns the the position of the first occurrence of a specified text in a string:
+
+48) method returns the the position of the last occurrence of a specified text in a string:
+
+49)  method searches a string for a specified value and returns the position of the match:
+
+50) method searches a string for a match against a regular expression, and returns the matches, as an Array object.
+
+51) method returns true if a string contains a specified value.
+
+52) method returns true if a string begins with a specified value, otherwise false:
+
+53) method returns true if a string ends with a specified value, otherwise false:
+
+54) You can use the global JavaScript function to find out if a value is a not a number:
+
+55) is the value JavaScript will return if you calculate a number outside the largest possible number.
+
+56) convert numbers into a string
+
+57) returns a string, with a number rounded and written using exponential notation.
+
+58) returns a string, with the number written with a specified number of decimals:
+
+59) returns a string, with a number written with a specified length:
+
+60) returns a number as a number.
+
+61) can be used to convert JavaScript variables to numbers:
+
+62) parses a string and returns a whole number. Spaces are allowed. Only the first number is returned:
+
+63) parses a string and returns a number. Spaces are allowed. Only the first number is returned:
+
+64) returns the largest possible number in JavaScript.
+
+65) returns the lowest possible number in JavaScript.
+
+66) create a basic array
+
+67) create an empty array, and then provide the elements:
+
+68) The following example also creates an Array, and assigns values to it:
+
+69) property of an array returns the length of an array (the number of array elements).
+
+70) access the first array
+
+71) access the last array
+
+72) loop throught the array
+
+73) again use forEach
+
+74) The easiest way to add a new element to an array is using the method:
+
+75) check whether its an array using defined property
+
+76) method also joins all array elements into a string.
+
+77) method removes the last element from an array:
+
+78) method adds a new element to an array (at the end):
+
+79) method removes the first array element and "shifts" all other elements to a lower index.
+
+80) method adds a new element to an array (at the beginning),
+
+81) method creates a new array by merging existing arrays:
+
+82) method can be used to add new items to an array:
+
+83) With clever parameter setting, you can use to remove elements without leaving "holes" in the array:
+
+84) method slices out a piece of an array into a new array.
+
+85) method sorts an array alphabetically:
+
+86) method reverses the elements in an array.
+
+87) You can fix this by providing a compare function:
+
+88) sorting an array in a random manner
+
+89) using math to find highest to find the highest number in an array:
+
+90) using math to find the lowest number in an array
+
+91) method calls a function (a callback function) once for each array element.
+
+92)  method creates a new array by performing a function on each array element.
+
+93) method creates a new array with array elements that pass a test.
+
+94) method runs a function on each array element to produce (reduce it to) a single value.
+
+95) method runs a function on each array element to produce (reduce it to) a single value. another reduceMethod
+
+96) method checks if all array values pass a test.
+
+97) method checks if some array values pass a test.
+
+98) method searches an array for an element value and returns its position.
+
+99) method returns the value of the first array element that passes a test function.
+
+100) method returns an Array object from any object with a length property or any iterable object.
+
+101) method returns an Array Iterator object with the keys of an array.
+
+102) method returns an Array Iterator object with key/value pairs:
+
+103) ECMAScript 2016 introduced Array.includes() to arrays. This allows us to check if an element is present in an array
+
+104) create a date object
+
+105) creates a new date object with a specified date and time.
+
+7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order):
+
+106)creates a new date object from a date string:
+
+107)  creates a new date object as zero time plus milliseconds:
+
+108) method converts a date to a UTC string (a date display standard).
+
+109) method converts a date to a more readable format:
+
+110) method converts a Date object to a string, using the ISO standard format:
+
+111) returns the number of milliseconds between the date and January 1, 1970:
+
+Example
+
+112) use some setDateMethod
+
+113) use some getDateMethod
+
+114) returns the nearest integer:
+
+115) returns the value of x rounded up to its nearest integer:
+
+116) returns the value of x rounded down to its nearest integer:
+
+117) returns the integer part of x:
+
+118) returns if x is negative, null or positive:
+
+119) returns the value of x to the power of y:
+
+120) returns the square root of x:
+
+121) returns the absolute (positive) value of x:
+
+122) returns the sine (a value between -1 and 1) of the angle x (given in radians).
+
+123) returns the cosine (a value between -1 and 1) of the angle x (given in radians).
+
+124) can be used to find the lowest or highest value in a list of arguments:
+
+125) returns a random number between 0 (inclusive), and 1 (exclusive):
+
+126)  returns the natural logarithm of x.
+
+127) returns the base 2 logarithm of x.
+
+128) returns the base 2 logarithm of x.
+
+129) used with  can be used to return random integers.
+
+130) use a function to generate random numbers
+
+131) use ternary operator
+
+132) The Nullish Coalescing Operator use it 
+
+133) create a syntax of if and else too
+
+134) create if/ else using any statement evn else if
+
+135) create syntax for switch
+
+134) use getDay and switch statement
+
+135) use syntax for loop
+
+136) use expression1 , expression2 as optional and use for loop
+
+137) use for-in syntax
+
+138) use for-in 
+
+139) use for-each 
+
+140) use for-of syntax
+
+141) use for-of
+
+142) loop through the string
+
+143) use while syntax
+
+144) while loop
+
+145) doWhile
+
+146) use break over two loops
+
+147) use break and continue over arrays
+
+148) use for-of over map, set, array
+
+149) create a new set
+
+150) add values to the set
+
+151) use for-each over set
+
+152) create a new Map
+
+153) add elements to map
+
+154) how to grab value from Map
+
+155) property returns the number of elements in a Map:
+
+156)  method removes a Map element:
+
+157) method returns true if a key exists in a Map:
+
+158) use forEach over map
+
+159) method returns an iterator object with the [key, values] in a Map:
+
+160) use type of
+
+161) use type of over complex numbers
+
+162)property returns the constructor function for all JavaScript variables.
+
+163) heck the constructor property to find out if an object is an Array
+
+164) check if the object is an Array function
+
+165) method is a RegExp expression method.
+
+It searches a string for a pattern, and returns true or false, depending on the result.
+
+166) method is a RegExp expression method.
+
+It searches a string for a specified pattern, and returns the found text as an object.
+
+If no match is found, it returns an empty (null) object.
+
+167) create a syntax for error handling
+
+168) create an example for error handling
+
+169) statement allows you to create a custom error.
+
+170) statement lets you execute code, after try and catch, regardless of the result:
+
+171) is thrown if you use a number that is outside the range of legal values.
+
+172) is thrown if you use (reference) a variable that has not been declared:
+
+173) is thrown if you try to evaluate code with a syntax error.
+
+174) is thrown if you use a value that is outside the range of expected types:
+
+175)  is thrown if you use illegal characters in a URI function:
+
+176) perform blockScope, globalScope, functionScope
+
+177) Hoisting using let, var
+
+178) use this method with an example
+
+179) use call
+
+180) use apply
+
+181) method, an object can borrow a method from another object.
+
+182) use arrowfunction
+
+183) create a class
+
+184) import and export the files 
+
+
+
+
+
+
+
+
+
+185) create json arrays, objects
+
+186) to convert the string into a JavaScript object:
+
+187) create object using the different methods
+
+188) Mute the objects
+
+189) use the different methods of properties and mute them
+
+190) add property, delete property
+
+191) nest array and nest objects
+
+192) add a method to object and try accessing it
+
+193) Any JavaScript object can be converted to an array using
+
+194) Any JavaScript object can be stringified (converted to a string) with the JavaScript function 
+
+195) use setter
+
+196) use getter
+
+197) method can also be used to add Getters and Setters:
+
+198) use constructor
+
+199) create a constructor add a property add a method 
+
+200) use prototype over objects
+
+201) The iterator protocol defines how to produce a sequence of values from an object.
+
+An object becomes an iterator when it implements a method.
+
+202) use loops to iterate through objects
+
+
+
+
+
+
+203) create a new set, using different methods
+
+204) add new set
+
+205) use for each
+
+206) method returns an Iterator object containing all the values in a Set
+
+207) returns [value,value] pairs instead of [key,value] pairs.
+
+This makes Sets compatible with Maps:
+
+
+
+
+
+
+
+
+208) create a new map add new map find values size delete and remove from map method returns true if a key exists in a Map:
+use forEach method returns an iterator object with the [key,values] in a Map: method returns an iterator object with the values in a Map 
+
+209) method can also be used to add Getters and Setters
+
+
+
+
+
+210) create a function syntax
+
+211) create a function  and arguments
+
+212) create a function using another method
+
+213) self invoking function
+
+214) use function as values
+
+215) property returns the number of arguments received when the function was invoked
+
+216) method returns the function as a string
+
+217) again use arrow function
+
+218) use functions with parametres and give a value
+
+219) invoke a function
+
+220) using a function as method
+
+221) use a function with a container
+
+222) an object can use a method belonging to another object.
+
+223) method, you can write a method that can be used on different objects.
+
+224) You can find the largest number (in a list of numbers) using the Math.max() method:
+
+225) method, an object can borrow a method from another object.
+
+226) the inner function plus() has access to the counter variable in the parent function:
+
+227) The counter should be local to the add() function, to prevent other code from changing
+
+
+
+
+
+228)Always add a method named constructor():
+
+229) use a class
+
+230) add a constructor
+
+231) Always add a method named constructor():
+
+232)  method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
+
+233) To add getters and setters in the class
+
+234) use a local variable
+
+235) If you want to use the myCar object inside the static method
