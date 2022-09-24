@@ -1,0 +1,2021 @@
+Exercises
+
+1) create a HTML from scratch
+
+2) Place css and js respectively
+
+3) make an simple readable addition expression
+
+
+
+JS WHERE TO
+
+
+<DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</DOCTYPE>
+
+
+
+
+
+
+
+
+
+4) Perform a single line comment
+
+js comments
+
+
+//This is a single line comment
+
+
+
+
+
+
+5) perform a multi line comment
+
+js comments
+
+
+/* this is a multiple
+line comment
+see its still green */
+
+
+
+
+
+
+
+6)  to create a different ways variable holding data type
+
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_variables_types
+
+var x = 5;
+let y = 6;
+const z = 7;
+a = 10;
+
+let b;
+b = 11;
+console.log(x);
+console.log(y);
+console.log(z);
+console.log(a);
+console.log(b);
+
+
+
+
+7) to make multiple line variable
+
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_variables_multi
+
+let x = 5; y = 6; z = 7;
+console.log(x, y, z);
+
+
+
+
+
+
+8) create undefined variable
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_variables_undefined
+
+
+9) create variable without keywords
+
+a = 10;
+console.log(a);
+
+
+10) play with global scope and local scope of let and try reassining values
+same as 17, 18, 19
+
+
+
+11)use hoisted over the necessary keyword
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_let_hoisting_var
+
+
+name = "shaam";
+var name;
+console.log(name);
+
+
+
+
+
+
+
+
+12) create a const array
+
+
+
+const a = ['a', 'b', 'c'];
+console.log(a)
+
+
+
+
+13) reassign
+
+
+const a = ['a', 'b', 'c'];
+a['0'] = 's';
+console.log(a);
+
+
+
+14) add a newValue to the constArray
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_const_array
+
+
+const a = ['a', 'b', 'c'];
+a['0'] = 's';
+a.push('y');
+a.unshift('z');
+console.log(a);
+
+
+
+
+15) create a const object
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_const_object
+
+
+const a = {name: 'shaam', age: 20};
+console.log(a);
+
+
+
+16) reassign
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_const_object
+
+
+const a = {name: 'shaam', age: 20};
+a.name = 'nath';
+console.log(a);
+
+
+
+
+17) add a newValue this is not there
+
+18) use the global and local scope over const
+
+19) combine all the variable keyWords over global and local scope
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_const
+let a = 1;
+var b = 2;
+const c = 3;
+console.log('The value of let', a);
+console.log('The value of var', b);
+console.log('The value of const', c);
+var b = 5;
+//let a = 2; let 
+{
+let a = 7;
+var b = 8;
+const c = 9;
+console.log('The value of letInside', a);
+console.log('The value of varInside', b);
+console.log('The value of constInside', c);
+}
+
+
+
+
+
+
+
+20) add string and number, number and a number, number and a string
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_concatenate
+let a = "shaam";
+let b = "natheshwar";
+console.log(a+ " " + b);
+
+
+add two numbers without second variable
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_concat4
+
+let a = "ssn";
+a += " Gokui";
+console.log(a);
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_oper_concat5
+
+
+let a = 'shaama';
+let b = 55;
+console.log(a+b);
+
+let c = 55;
+let e = 45;
+let d = 'vigeta';
+console.log(c+e+d);
+
+
+
+
+21) find the variable type
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_datatypes_typeof_number
+let a = true;
+console.log(typeof(a));
+
+22) find the variable instance
+
+o1 instanceof B; its jst dummy
+
+
+
+
+
+
+23) create a basic function syntax
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_functions
+function addNum(p1, p2){
+	return p1+p2;
+}
+console.log(addNum(5,6));
+
+24) use return over a function
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_return
+let x = multiplyNum(3,5);
+function multiplyNum(a1, a2){
+	return a1*a2;
+}
+console.log(x);
+
+
+
+25) create a object of anything
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_objects_object
+
+const obj = {
+name: "Shaam", 
+age: 20,
+};
+console.log(obj);
+
+
+26) use different ways to grab the key and value in an object
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_objects_properties_1
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_objects_properties_2
+const obj = {
+name: "Shaam", 
+age: 20,
+};
+obj.name = "nath";
+obj['age'] = 40;
+console.log(obj);
+
+
+
+
+27) use a function inside object
+
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_objects_method
+const obj = {
+fName: "Shaam",
+lName: "Nath",
+age: 20,
+fullName: function (){
+	return this.fName + " " + this.lName;
+}
+};
+console.log(obj.fullName());
+
+
+
+28) another method to create objects of number, bool, String
+
+x = new String();
+y = new Number();
+z = new Boolean();
+but donot use boolean as constructor
+
+
+
+
+29) find the length of the given string
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_length
+
+let a = "shaamNatheshwar";
+let leng = a.length;
+console.log(leng);
+
+
+30) escape a string
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_escape_quotes2
+let a = "This is \" shaam\" i am";
+console.log(a);
+
+
+31) perform various backslash operations on string
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_escape_backslash
+
+let a = "This is \v shaam";
+console.log(a);
+
+
+32) extract a part of string and display it onto new string 
+along with other 2 keywords
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_slice
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_substring
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_substr
+
+let x = "shaam is a good boy";
+let str = x.slice(7,17);
+console.log(str);
+
+
+let x = "beyblade movie boss";
+let substrings = x.substring(5,15);
+console.log(substrings);
+
+
+let y = "goku vs gogeta";
+let substrs = y.substr(1,5);
+console.log(substrs);
+
+
+
+33) replace a specific value with another string
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_replace
+
+let y = "goku vs gogeta";
+let replaced = y.replace("gogeta", "gohan");
+console.log(replaced);
+
+
+
+34) To replace case insensitive, use a regular expression with an
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_replace_insensitive
+
+let y = "majimbu vs gohan";
+let x = y.replace(/majimbu/i, "beruz");
+console.log(x);
+
+
+35) To replace all matches, use a regular expression with a 
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_replace_global
+let a = "beruz is son of beruz and beruz is father of beruz who is grand father of beruz";
+let x = a.replace(/beruz/g, "jiraya");
+console.log(x);
+
+
+
+36) convert a string into upperCase
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_toupper
+let a = "shaam was born on tamilnadu";
+console.log(a.toUpperCase());
+
+
+
+37) convert a string into lowerCase
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_tolower
+let a = "SHAAM WAS BORN ON CHENNAI";
+console.log(a.toLowerCase());
+
+
+
+38) joins two or more strings
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_concat
+let a = "shaam";
+let b = "natheshwar";
+let c = "is a good boy";
+let d = a.concat(" ", b, c);
+console.log(d);
+
+
+
+39) remove white spaces from a string
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_trim
+
+let a = "   shaam   ";
+console.log(a.trim());
+console.log(a);
+
+
+
+40) remove white spaces from start
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_trimstart
+
+let a = "   shaam   ";
+console.log(a.trimStart());
+console.log(a);
+
+
+
+41) remove white spaces from end of a string
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_trimend
+
+let a = "   shaam   ";
+console.log(a.trimEnd());
+console.log(a);
+
+
+
+42) method returns the character at a specified index (position) in a string:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_charat
+let a = "shaamNatheshwar";
+let b = a.charAt(7);
+console.log(b);
+
+
+43)  method returns the unicode of the character at a specified index in a string:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_charcodeat
+
+let a = "shaamNatheshwar";
+let b = a.charCodeAt(7);
+console.log(b)
+
+
+44) access the string property
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_prop
+let a = "shaamNatheshwar";
+let b = a[5];
+console.log(b);
+
+45) and change it to another value
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_prop2
+let a = "shaamNatheshwar";
+a[5] = "G";
+console.log(a);
+
+but doesn't work
+
+46) A string can be converted to an array 
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_split
+let a = "shaamnatheshwar, gohan, goku, gogeta, majimbu";
+console.log(a.split(","));
+
+
+47) method returns the the position of the first occurrence of a specified text in a string:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_indexof
+let str = "please locate where shaam is shaam";
+let newStr = str.indexOf('shaam');
+console.log(newStr);
+
+
+
+48) method returns the the position of the last occurrence of a specified text in a string:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_indexof_1
+
+let str = "please locate where shaam is shaam";
+let newStr = str.lastIndexOf('shaam');
+console.log(newStr);
+
+
+49)  method searches a string for a specified value and returns the position of the match:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_string_search_locate
+works same
+let str = "please locate where shaam is shaam";
+let newStr = str.search('shaam');
+console.log(newStr);
+
+
+50) method searches a string for a match against a regular expression, and returns the matches, as an Array object.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_match_regexp
+
+let str = "shaam is always shaam is shaam";
+let newStr = str.match(/shaam/g);
+console.log(newStr)
+
+
+51) method returns true if a string contains a specified value.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_includes
+let text = "shaam is always shaam";
+console.log(text.includes("shaam"));
+
+
+52) method returns true if a string begins with a specified value, otherwise false:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_startswith2
+let text = "shaam is always shaam";
+console.log(text.startsWith("shaam"));
+
+
+53) method returns true if a string ends with a specified value, otherwise false:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_endswith
+let text = "shaam is always shaasm";
+console.log(text.endsWith("shaam"));
+
+
+54) You can use the global JavaScript function to find out if a value is a not a number:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_numbers_isnan_true
+let x = 50/"shaam";
+console.log(isNaN(x));
+
+
+55) is the value JavaScript will return if you calculate a number outside the largest possible number.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_numbers_infinity_typeof
+console.log(typeof(Infinity))
+
+56) convert numbers into a string
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_numbers_tostring
+let x = 77;
+let y = x.toString();
+console.log(typeof(y));
+
+
+57) returns a string, with a number rounded and written using exponential notation.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_number_toexponential
+let x = 77.8309419084092138408402;
+
+console.log(x.toExponential(2));
+
+
+58) returns a string, with the number written with a specified number of decimals:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_number_tofixed
+let x = 77.8309419084092138408402;
+console.log(x.toFixed(2));
+
+
+
+59) returns a string, with a number written with a specified length:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_number_toprecision
+let x = 77.8309419084092138408402;
+console.log(x.toPrecision(10));
+
+60) returns a number as a number.
+https://www.w3schools.com/js/js_number_methods.asp
+let x = 122.55;
+console.log(x.valueOf())
+
+
+61) can be used to convert JavaScript variables to numbers:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_global_number
+console.log(Number(true));
+
+62) parses a string and returns a whole number. Spaces are allowed. Only the first number is returned:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_global_parseint
+console.log(parseInt("-20.48"));
+
+63) parses a string and returns a number. Spaces are allowed. Only the first number is returned:returns decimal toooo
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_global_parsefloat
+console.log(parseFloat("-20.48"));
+
+64) returns the largest possible number in JavaScript.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_number_max
+console.log(Number.MAX_VALUE);
+
+65) returns the lowest possible number in JavaScript.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_number_min
+console.log(Number.POSITIVE_INFINITY);
+console.log(Number.NEGATIVE_INFINITY);
+console.log(Number.MIN_VALUE);
+
+
+66) create a basic array
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array
+const footballers = ["Messi", "Ronaldo", "Neymar"];
+console.log(footballers);
+
+
+67) create an empty array, and then provide the elements:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_add_elements
+const cars = [];
+cars[0] = "Lam";
+cars[1] = "bugg";
+console.log(cars);
+
+68) The following example also creates an Array, and assigns values to it:
+const cars = new Array('gohan', 'goku', 'gogeta');
+console.log(cars);
+
+
+69) property of an array returns the length of an array (the number of array elements).
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_length
+const cars = ['shaam', 'goku', 'gohan']
+console.log(cars.length);
+
+
+70) access the first array
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_first
+const cars = ['shaam', 'goku', 'gohan']
+console.log(cars[0]);
+
+
+71) access the last array
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_last
+const va = ['shaam', 'nath', 'gohan'];
+let us = va[va.length - 1];
+console.log(us);
+
+72) loop throught the array
+later 
+73) again use forEach
+later
+74) The easiest way to add a new element to an array is using the method:
+const cars = ['fer', 'bug', 'vey'];
+cars.push('lam');
+console.log(cars);
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_add_push
+const lorry = ['mahi', 'tata'];
+lorry[lorry.length] = 'volv';
+console.log(lorry);
+75) check whether its an array using defined property
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_isarray_method
+
+const lorry = ['mahi', 'tata'];
+lorry[lorry.length] = 'volv';
+Array.isArray(lorry);
+
+
+76) method also joins all array elements into a string.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_join
+const cars = ['lam', 'bug', 'fer', 'enzo'];
+console.log(cars.join(','))
+
+
+77) method removes the last element from an array:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_pop
+const cars = ['lam', 'bug', 'fer', 'enzo'];
+console.log(cars.pop());
+
+78) method adds a new element to an array (at the end):
+https://www.w3schools.com/js/js_array_methods.asp
+const cars = ['lam', 'bug', 'fer', 'enzo'];
+cars.push('tata');
+console.log(cars);
+79) method removes the first array element and "shifts" all other elements to a lower index.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_shift_return
+const cars = ['lam', 'bug', 'fer', 'enzo'];
+cars.shift();
+console.log(cars);
+
+
+80) method adds a new element to an array (at the beginning),
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_unshift
+const cars = ['lam', 'bug', 'fer', 'enzo'];
+cars.unshift('ff');
+console.log(cars);
+
+Array elements can be deleted using the JavaScript operator
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_delete
+const cars = ['lam', 'bug', 'fer', 'enzo'];
+delete cars[0];
+console.log(cars);
+
+
+81) method creates a new array by merging existing arrays:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_concat
+const cars = ['lam', 'bug', 'fer', 'enzo'];
+const footBallers = ['lmo', 'cr7', 'r9'];
+const newArray = cars.concat(footBallers);
+console.log(newArray);
+
+82) method can be used to add new items to an array:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_splice
+const cars = ['lam', 'bug', 'fer', 'enzo'];
+cars.splice(2,0, 'gen', 'hen');
+console.log(cars);
+
+
+83) With clever parameter setting, you can use to remove elements without leaving "holes" in the array:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_remove
+const cars = ['lam', 'bug', 'fer', 'enzo'];
+cars.splice(1,3);
+console.log(cars);
+
+84) method slices out a piece of an array into a new array.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_slice1
+const cars = ['lam', 'bug', 'fer', 'enzo'];
+const newCar = cars.slice(1);
+console.log(newCar);
+85) method sorts an array alphabetically:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort
+const cars = ['shaam', 'goku', 'gohan', 'vigeta'];
+const news = cars.sort();
+console.log(news);
+
+
+86) method reverses the elements in an array.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort_reverse
+const cars = ['shaam', 'goku', 'gohan', 'vigeta'];
+const news = cars.reverse();
+console.log(news);
+87) You can fix this by providing a compare function:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort2
+const points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a,b){
+return a-b;
+})
+console.log(points);
+
+const points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a,b){
+return b-a;
+})
+console.log(points);
+
+
+88) sorting an array in a random manner
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort_random
+const points = [40, 100, 1, 5, 25, 10];
+points.sort(function(){
+return 0.5 - Math.random();
+})
+console.log(points);
+
+89) using math to find highest to find the highest number in an array:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort_math_max
+function mathc(){
+return Math.max(1,2,3)
+}
+console.log(mathc());
+90) using math to find the lowest number in an array
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort_math_min
+function mathc(){
+return Math.min(1,2,3)
+}
+console.log(mathc());
+
+91) method calls a function (a callback function) once for each array element.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_foreach_2
+const numbers = [45, 4, 9, 16, 25];
+let txt = "";
+numbers.forEach(myFunction);
+
+function myFunction(value) {
+  txt += value.toString().split(",");
+}
+console.log(txt);
+92)  method creates a new array by performing a function on each array element.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_map
+
+const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = numbers1.map(myFunc);
+
+function myFunc(val){
+return val * 2;
+}
+console.log(numbers2);
+
+
+93) method creates a new array with array elements that pass a test.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_filter
+const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = numbers1.filter(myFunc);
+
+function myFunc(val){
+return val > 10;
+}
+console.log(numbers2);
+
+
+94) method runs a function on each array element to produce (reduce it to) a single value.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_reduce
+const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = numbers1.reduce(myFunc);
+
+function myFunc(total, val){
+return total + val;
+}
+console.log(numbers2);
+
+
+95) method runs a function on each array element to produce (reduce it to) a single value. another reduceMethod
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_reduce_right_2
+const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = numbers1.reduceRight(myFunc);
+
+function myFunc(total, val){
+return total + val;
+}
+console.log(numbers2);
+
+
+96) method checks if all array values pass a test.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_every_2
+const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = numbers1.every(myFunc);
+
+function myFunc(total, val){
+return val > 10;
+}
+console.log(numbers2);
+97) method checks if some array values pass a test.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_some
+const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = numbers1.some(myFunc);
+
+function myFunc(total, val){
+return val > 10;
+}
+console.log(numbers2);
+98) method searches an array for an element value and returns its position.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_indexof
+const fruits = ["Apple", "Orange", "Apple", "Mango"];
+let position = fruits.indexOf('Apple') + 1;
+console.log(position);
+
+const fruits = ["Apple", "Orange", "Apple", "Mango"];
+let position = fruits.lastIndexOf("Apple") + 1;
+
+
+99) method returns the value of the first array element that passes a test function.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_find
+const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = numbers1.find(myFunc);
+
+function myFunc(val, index, array){
+return val > 10;
+}
+console.log(numbers2);
+
+const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = numbers1.findIndex(myFunc);
+
+function myFunc(val, index, array){
+return val > 10;
+}
+console.log(numbers2);
+
+
+100) method returns an Array object from any object with a length property or any iterable object.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_from
+let x = Array.from("shaam");
+console.log(x);
+
+
+101) method returns an Array Iterator object with the keys of an array.
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_keys
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const keys = fruits.keys();
+console.log(keys);
+
+
+
+102) method returns an Array Iterator object with key/value pairs:
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_entries
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const keys = fruits.entries();
+console.log(keys);
+
+
+
+103) ECMAScript 2016 introduced Array.includes() to arrays. This allows us to check if an element is present in an array
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_includes
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.includes("Banana"));
+
+
+104) create a date object
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_current
+const d = new Date();
+console.log(d);
+
+105) creates a new date object with a specified date and time.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_new_day_35
+const d = new Date(2018, 11, 24, 10, 33, 30, 0);
+console.log(d);
+
+7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order):
+
+106)creates a new date object from a date string:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_new_string
+const d = new Date("October 12 2014");
+console.log(d);
+
+
+107)  creates a new date object as zero time plus milliseconds:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_new_all
+const d = new Date(86400000);
+console.log(d);
+
+108) method converts a date to a UTC string (a date display standard).
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_toutcstring
+const d = new Date(86400000);
+console.log(d.toUTCString());
+
+
+109) method converts a date to a more readable format:
+https://www.w3schools.com/js/js_dates.asp
+const d = new Date(86400000);
+console.log(d.toDateString());
+110) method converts a Date object to a string, using the ISO standard format:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_toisostring
+const d = new Date(86400000);
+console.log(d.toISOString());
+111) returns the number of milliseconds between the date and January 1, 1970:
+https://www.w3schools.com/js/js_date_formats.asp
+let msec = Date.parse("March 21 2013");
+console.log(msec);
+Example
+
+112) use some setDateMethod
+
+https://www.w3schools.com/js/js_date_methods_set.asp
+const d = new Date();
+d.setMonth(11);
+console.log(d.toString());
+
+
+113) use some getDateMethod
+https://www.w3schools.com/js/js_date_methods.asp
+let d = new Date();
+console.log(d.getFullYear());
+d.getMilliseconds();
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+const d = new Date();
+let day = days[d.getDay()];
+console.log(day);
+
+
+
+114) returns the nearest integer:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_round_1
+let a = 4.902;
+console.log(Math.round(a));
+
+115) returns the value of x rounded up to its nearest integer:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_ceil
+let a = 4.902;
+console.log(Math.ceil(a));
+
+
+116) returns the value of x rounded down to its nearest integer:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_floor
+let a = 4.902;
+console.log(Math.floor(a));
+117) returns the integer part of x:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_trunc
+let a = 4.902;
+console.log(Math.trunc(a));
+118) returns if x is negative, null or positive:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_sign
+let a = -4.902;
+console.log(Math.sign(a));
+119) returns the value of x to the power of y:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_pow
+console.log(Math.pow(2, 4));
+
+120) returns the square root of x:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_sqrt
+console.log(Math.sqrt(64));
+121) returns the absolute (positive) value of x:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_abs
+console.log(Math.abs(-64));
+
+122) returns the sine (a value between -1 and 1) of the angle x (given in radians).
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_sin
+console.log(Math.sin(90));
+123) returns the cosine (a value between -1 and 1) of the angle x (given in radians).
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_sin
+console.log(Math.cos(90));
+124) can be used to find the lowest or highest value in a list of arguments:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_min
+console.log(Math.min(90, 9 ,98, 90));
+console.log(Math.max(90, 9 ,98, 90));
+125) returns a random number between 0 (inclusive), and 1 (exclusive):
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_random
+console.log(Math.random(10));
+126)  returns the natural logarithm of x.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_log_ten_times
+console.log(Math.log(10));
+
+127) returns the base 2 logarithm of x.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_log2
+console.log(Math.log2(10));
+128) returns the base 10 logarithm of x.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_math_log10
+console.log(Math.log10(10000));
+129) used with  can be used to return random integers.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_random_0_10
+console.log(Math.floor(Math.random(10) * 10 ));
+130) use a function to generate random numbers
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_random_function2
+function getRand(min, max){
+return Math.floor(Math.random() * (max - min)) + min;
+}
+console.log(getRand(1,10));
+
+
+131) use ternary operator
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_comparison
+let age = 20;
+let voteAble = (age > 18) ? 'Yes' : 'no';
+console.log(voteAble
+
+132) The Nullish Coalescing Operator use it 
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_nullish
+let name = null;
+let text = "missing";
+let result = name ?? text;
+console.log(result);
+
+
+133) create a syntax of if and else too
+let age = 18;
+if(age > 18){
+	console.log('He can vote');
+}else{
+	console.log('He cannot')
+}
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_ifthenelse
+134) create if/ else using any statement evn else if
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_ifthenelse
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+
+
+135) create syntax for switch
+https://www.w3schools.com/js/js_switch.asp
+switch(expression) {
+	case x:
+	break;
+	case y:
+	break;
+	default:
+	
+}
+
+134) use getDay and switch statement
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_switch
+let day;
+switch(new Date().getDay()){
+	case 0:
+	day = "Sunday";
+	break;
+	case 1:
+	day = "Monday";
+	break;
+	case 2:
+	day = "Tuesday";
+	break;
+	case 3:
+	day = "wednesday";
+	break
+	case 4:
+	day = "Thursday";
+	break;
+	case 5:
+	day = "friday";
+	break;
+	case 6:
+	day = "sat";
+	break;
+}
+console.log(day);
+
+
+
+135) use syntax for loop
+for(exp1, exp2, exp3){
+	//code to be executed
+}
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_loop_for_ex
+for(let i = 0; i<10; i++){
+	console.log(i);
+
+
+136) use expression1 , expression2 as optional and use for loop
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_loop_for_om3
+let i=0;
+for(; i<4 ;){
+	console.log(i);
+	i++;
+}
+
+
+137) use for-in syntax
+for (key in object){
+ //code to be executed
+}
+
+
+138) use for-in 
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_for_in
+const x = ['shaam', 'Nath', 'gohan', 'goku'];
+
+for(let i in x){
+	console.log(x[i])
+}
+
+139) use for-each 
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_foreach
+const numbers = [3,4,1,7,9];
+
+numbers.forEach(FunctionName);
+function name(exp1, exp2){
+ //code to be executed;
+}
+
+const numbers = [3,4,1,7,9];
+
+numbers.forEach(printNum);
+
+function printNum(val){
+	console.log(val);
+}
+
+140) use for-of syntax
+for(x of iterable){
+ //code to be executed
+}
+
+
+
+141) use for-of
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_for_of
+const x = [3,7,9,1,4];
+for(let i of x){
+	console.log(i);
+}
+142) loop through the string
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_for_of2
+const x = "shaamNatheshwar";
+for(let i of x){
+	console.log(i);
+}
+
+143) use while syntax
+while(condition){
+//code to be executed
+}
+
+
+144) while loop
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_while
+let x = 0
+while(x<10){
+	console.log(x);
+	x++;
+}
+
+145) doWhile
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_dowhile
+let x=0;
+do{
+ console.log(x);
+ x++;
+}while(x<10);
+
+
+146) use break over two loops
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_break
+for(let i = 0; i<10; i++){
+ if(i==3) break;
+ console.log(i);
+}
+
+
+147) use break and continue over arrays
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_break_list
+let text;
+const cars = ['bmw', 'audi', 'lam', 'benz'];
+list: {
+text = cars[0];
+text = cars[1];
+break list;
+text = cars[2];
+}
+console.log(text);
+
+148) use for-of over map, set, array
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_iterate_map
+
+const fruits = new Map(
+	[
+	['tomato', 30],
+	['potato', 44],
+	['brinjal', 456],
+	]
+)
+for (let x of fruits){
+	 console.log(x);
+}
+
+
+149) create a new set
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_set_create_array
+const letters = new Set(['a', 'b', 'c', 'd']);
+console.log(letters.toString());
+
+
+150) add values to the set
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_set_create_values
+const letters = new Set();
+letters.add("a");
+letters.add("b");
+console.log(letters);
+
+151) use for-each over set
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_set_foreach
+const letters = new Set(['a', 'b', 'c', 'd']);
+let text = "";
+
+letters.forEach(allLetters);
+function allLetters(val){
+	text += val;
+}
+console.log(text);
+
+
+152) create a new Map
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_map_create_array
+const fruits = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
+153) add elements to map
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_map_set_new
+const fruits = new Map();
+fruits.set("apples", 60);
+fruits.set("Banana", 90);
+fruits.set("Mango", 110);
+console.log(fruits);
+154) how to grab value from Map
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_map_get
+const fruits = new Map();
+fruits.set("apples", 60);
+fruits.set("Banana", 90);
+fruits.set("Mango", 110);
+console.log(fruits.get("apples"));
+
+
+155) property returns the number of elements in a Map:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_map_size
+const fruits = new Map();
+fruits.set("apples", 60);
+fruits.set("Banana", 90);
+fruits.set("Mango", 110);
+console.log(fruits.size);
+
+156)  method removes a Map element:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_map_delete
+const fruits = new Map();
+fruits.set("apples", 60);
+fruits.set("Banana", 90);
+fruits.set("Mango", 110);
+console.log(fruits.delete("apples"));
+
+157) method returns true if a key exists in a Map:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_map_has
+const fruits = new Map();
+fruits.set("apples", 60);
+fruits.set("Banana", 90);
+fruits.set("Mango", 110);
+console.log(fruits.has("apples"));
+
+
+158) use forEach over map
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_map_foreach
+const fruits = new Map();
+fruits.set("apples", 60);
+fruits.set("Banana", 90);
+fruits.set("Mango", 110);
+let text = ""
+fruits.forEach(function(key, value){
+	text += key + value;
+})
+console.log(text);
+
+159) method returns an iterator object with the [key, values] in a Map:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_map_entries
+const fruits = new Map();
+fruits.set("apples", 60);
+fruits.set("Banana", 90);
+fruits.set("Mango", 110);
+let text = ""
+for (let x of fruits.entries()){
+	text += x;
+}
+
+console.log(text);
+160) use type of
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_typeof_all
+console.log(typeof('shaam'))
+
+161) use type of over complex numbers
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_datatypes_typeof_complex
+const x = ['shaam', 'nath', 'eshwar']
+console.log(typeof(x))
+
+
+162)property returns the constructor function for all JavaScript variables.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_constructor_all
+const x = true.constructor;
+console.log((x))
+163) check the constructor property to find out if an object is an Array
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_isarray
+function isArray(myArray){
+	return myArray.constructor,toString().indexOf('Array') - 1;
+}
+
+164) check if the object is an Array function
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_date_isdate
+function isDate(myDate){
+	myDate.constructor === Date;
+}
+165) method is a RegExp expression method.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_test
+const patter = /e/;
+console.log(patter.test('shaame'))
+
+It searches a string for a pattern, and returns true or false, depending on the result.
+
+166) method is a RegExp expression method.
+
+It searches a string for a specified pattern, and returns the found text as an object.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_regexp_exec
+console.log(/e/.exec('shaam'))
+If no match is found, it returns an empty (null) object.
+
+167) create a syntax for error handling
+
+try{
+	//code to be executed
+}
+catch (err){
+	//code to executed
+}
+168) create an example for error handling
+
+let num = 1;
+
+try{
+	num.toPrecision(500);
+}catch(err){
+ console.log(err.toString());
+}
+
+169) statement allows you to create a custom error.
+throw 500;
+
+
+170) statement lets you execute code, after try and catch, regardless of the result:
+
+171) is thrown if you use a number that is outside the range of legal values.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_error_rangeerror
+let num = 1;
+
+try{
+	num.toPrecision(500);
+}catch(err){
+ console.log(err.toString());
+}
+
+172) is thrown if you use (reference) a variable that has not been declared:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_error_referenceerror
+let x = 1;
+
+try{
+	x = y+1;
+}catch(err){
+ console.log(err.toString());
+}
+
+
+173) is thrown if you try to evaluate code with a syntax error.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_error_syntaxerror
+try{
+ eval('hello);
+}catch(err){
+	console.log(err.toString());
+}
+
+
+174) is thrown if you use a value that is outside the range of expected types:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_error_typeerror
+let num = 1
+try{
+	num.toUpperCase();
+}catch(err){
+	console.log(err.toString());
+}
+175)  is thrown if you use illegal characters in a URI function:
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_error_urierror
+try{
+	decodedURI('%%%');
+}catch(err){
+	console.log(err.toString());
+}
+
+
+176) perform blockScope, globalScope, functionScope
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_scope_local
+let x = 5;
+console.log('global', x);
+{
+	let x = 5
+	console.log('local', x);
+}
+177) Hoisting using let, var
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_let_hoisting_const
+carName = "sam";
+var carName;
+
+178) use this method with an example
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_this_method
+const person = {
+	fName: "shaam",
+	lName: "nath",
+	fullname : function(){
+	 return this.fName + " " + this.lName;
+	}
+}
+console.log(fullname);
+
+
+179) use call
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_this_call
+const person1 = {
+    fullName : function(){
+        return this.firstName + " " + this.secondName
+    }
+}
+
+const person2 = {
+    firstName : "shaam",
+    secondName : "nath"
+
+}
+console.log(person1.fullName.call(person2));
+
+180) use apply
+
+
+181) method, an object can borrow a method from another object.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_bind_borrow
+const person = {
+    firstName : "shaam",
+    lastName : "nath",
+    fullName : function (){
+        return this.firsName + " " + this.lastName;
+    }
+}
+
+const member = {
+    firstName : "vijay",
+    lastName : "jp"
+}
+
+console.log(person.fullName.bind(member))
+182) use arrowfunction
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_arrow_function5
+hello = (val) => {
+    return "hello" + val;
+}
+console.log(hello("hi"));
+
+183) create a class
+
+class car{
+    constructor(car, year){
+        car = this.car;
+        year = this.year;
+    }
+}
+
+class car {
+    constructor(name, year){
+        this.name = name;
+        this.year = year;
+    }
+}
+let myCar = new car('ford', 1932);
+console.log(myCar);
+
+
+
+184) import and export the files 
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_modules1
+const message = () => {
+    const name = "shaam"
+}
+export default message;
+
+import { name, age } from "./person.js";
+
+
+
+
+
+
+
+
+
+185) create json arrays, objects
+{
+    "employees"[
+        {"firstname": "shaam"}
+    ]
+}
+
+186) to convert the string into a JavaScript object:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_mutable
+const person = new Object();
+person.firstName = "shaam";
+person.secondName = "Nath";
+console.log(person);
+
+187) create object using the different methods
+
+188) Mute the objects
+
+189) use the different methods of properties and mute them
+
+190) add property, delete property
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_properties3
+const person = new Object();
+person.firstName = "shaam";
+person.secondName = "Nath";
+delete person.firstName
+console.log(person);
+
+191) nest array and nest objects
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_nested
+myObj = {
+    name: "shaam",
+    full: "natheshwar",
+    car: {
+        car: "bug"
+    }
+}
+
+192) add a method to object and try accessing it
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_nested4
+myObj = {
+    name: "shaam",
+    full: "natheshwar",
+    car: {
+        car1: "bug"
+    }
+}
+console.log(myObj.car.car1)
+193) Any JavaScript object can be converted to an array using
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_display_values
+myObj = {
+    name: "shaam",
+    full: "natheshwar",
+}
+console.log(Object.values(myObj))
+
+194) Any JavaScript object can be stringified (converted to a string) with the JavaScript function 
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_display_stringify
+myObj = {
+    name: "shaam",
+    full: "natheshwar",
+}
+console.log(JSON.stringify(myObj))
+195) use setter
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_accessors_set
+const person = {
+fName: "shaam",
+language: " ",
+set lang(lang){
+	this.language = lang;
+}
+}
+person.lang = "tamil";
+console.log(person.language)
+
+196) use getter
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_accessors_get
+const person = {
+fName: "shaam",
+language: "Telugu",
+get lang (){
+	return this.language;
+}
+}
+console.log(person.lang)
+
+197) method can also be used to add Getters and Setters:
+
+198) use constructor
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_constructor5
+function person(first, last){
+	this.firstName = first;
+	this.lastName = last;
+}
+
+
+199) create a constructor add a property add a method 
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_constructor6
+function person(first, last){
+	this.firstName = first;
+	this.lastName = last;
+	this.name = function (){
+	return this.firstName + this.lastName;
+	}
+}
+200) use prototype over objects
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_prototype5
+function person(first, last){
+	this.firstName = first;
+	this.lastName = last;
+	this.name = function (){
+	return this.firstName + this.lastName;
+	}
+}
+person.prototype.nationality = "Indian";
+201) The iterator protocol defines how to produce a sequence of values from an object.
+
+An object becomes an iterator when it implements a method.
+
+202) use loops to iterate through objects
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_iterate_homemade3
+repitative
+
+
+
+
+203) create a new set, using different methods
+const letters = new Set(['a','b','c'])
+console.log(letters.toString());
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_set_create_array
+
+
+204) add new set
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_set_create_values
+const letters = new Set();
+letters.add("a");
+letters.add("b");
+
+205) use for each
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_set_foreach
+const letters = (["a","b","c"]);
+
+let text = " ";
+letters.forEach(newFunc);
+function newFunc(x){
+	text += x
+}
+console.log(text);
+
+206) method returns an Iterator object containing all the values in a Set
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_set_values
+const letters = (["a","b","c"]);
+
+let text = " ";
+letters.forEach(newFunc);
+function newFunc(x){
+	text += x
+}
+console.log(letters.values());
+207) returns [value,value] pairs instead of [key,value] pairs.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_set_entries
+const letters = (["a","b","c"]);
+
+let text = " ";
+letters.forEach(newFunc);
+function newFunc(x){
+	text += x
+}
+console.log(letters.entries());
+This makes Sets compatible with Maps:
+
+
+
+letters instanceof Set; tht instance of stuff
+
+
+
+
+208) create a new map add new map find values size delete and remove from map method returns true if a key exists in a Map:
+use forEach method returns an iterator object with the [key,values] in a Map: method returns an iterator object with the values in a Map 
+const fruits = new Map([
+	['apple', 20],
+	['banana', 10]
+])
+
+const fruits = new Map();
+
+fruits.set(['apple',20])
+console.log(fruits.toString())
+
+fruits.get("apples"); 
+
+fruits.size;
+
+fruits.delete("apples");
+
+fruits.has("apples");
+209) method can also be used to add Getters and Setters
+
+Object.defineProperty(obj, "reset", {
+  get : function () {this.counter = 0;}
+});
+Object.defineProperty(obj, "increment", {
+  get : function () {this.counter++;}
+});
+Object.defineProperty(obj, "decrement", {
+  get : function () {this.counter--;}
+});
+Object.defineProperty(obj, "add", {
+  set : function (value) {this.counter += value;}
+});
+Object.defineProperty(obj, "subtract", {
+  set : function (i) {this.counter -= i;}
+});
+
+// Play with the counter:
+obj.reset;
+obj.add = 5;
+obj.subtract = 1;
+obj.increment;
+obj.decrement;
+
+
+
+210) create a function syntax
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_return
+function name(p1, p2){
+	//code
+}
+name(callthem)
+
+211) create a function  and arguments
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_return
+function addSum(a, b){
+	return a+b;
+}
+console.log(addSum(10, 11));
+
+
+212) create a function using another method
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_constructor
+const myFunctions = new Function("a", "b", "return a*b");
+
+let x = myFunctions(4,3);
+console.log(x);
+213) self invoking function
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_expression_self
+(function (){
+	let x = "hello"
+})();
+214) use function as values
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_value
+function myFunction(a, b) {
+  return a * b;
+}
+
+let x = myFunction(4, 3);
+215) property returns the number of arguments received when the function was invoked
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_length
+function myFunction(a, b){
+	return arguments.length;
+}
+console.log(myFunction(5,5))
+216) method returns the function as a string
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_tostring
+function myFunction(a, b) {
+  return a * b;
+}
+
+let text = myFunction.toString();
+217) again use arrow function
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_es6_arrow_safe
+const xa = (x, y) => {
+	return x+y;
+}
+console.log(xa(5,5))
+218) use functions with parametres and give a value
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_default
+function name(x, y=2){
+	return x+y;
+}
+console.log(name(2,))
+219) invoke a function
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_invoke_function_2
+function myFunction(a, b) {
+  return a * b;
+}
+window.myFunction(10, 2); 
+220) using a function as method
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_invoke_method
+const myObject = {
+  firstName:"John",
+  lastName: "Doe",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  }
+}
+myObject.fullName();  
+
+221) use a function with a container
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_invoke_constructor
+function myFunction(a1, a2){
+	this.firstName = a1;
+	this.secondName = a2;
+}
+const myObj = new myFunction("shaam", "nath");
+console.log(myFunction.firstName)
+222) an object can use a method belonging to another object.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_call_call2
+const person = {
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+const person1 = {
+  firstName:"John",
+  lastName: "Doe"
+}
+const person2 = {
+  firstName:"Mary",
+  lastName: "Doe"
+}
+
+// This will return "Mary Doe"
+person.fullName.call(person2);
+223) method, you can write a method that can be used on different objects.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_apply_arguments
+
+const person = {
+  fullName: function(city, country) {
+    return this.firstName + " " + this.lastName + "," + city + "," + country;
+  }
+}
+
+const person1 = {
+  firstName:"John",
+  lastName: "Doe"
+}
+
+person.fullName.apply(person1, ["Oslo", "Norway"]);
+224) You can find the largest number (in a list of numbers) using the Math.max() method:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_call_math
+Math.max(1,2,3);
+225) method, an object can borrow a method from another object.
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_bind_borrow
+const person = {
+  firstName:"John",
+  lastName: "Doe",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  }
+}
+
+const member = {
+  firstName:"Hege",
+  lastName: "Nilsen",
+}
+
+let fullName = person.fullName.bind(member);
+226) the inner function plus() has access to the counter variable in the parent function:
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_closures4
+function add() {
+  let counter = 0;
+  function plus() {counter += 1;}
+  plus();   
+  return counter;
+}
+227) The counter should be local to the add() function, to prevent other code from changing
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_function_closures5
+const add = (function () {
+  let counter = 0;
+  return function () {counter += 1; return counter}
+})();
+
+add();
+add();
+add();
+
+
+
+
+228)Always add a method named constructor():
+
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+}
+229) use a class
+
+class ClassName {
+  constructor() { ... }
+}
+230) add a constructor
+
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+}
+231) Always add a method named constructor():
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_class_method
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+  age() {
+    let date = new Date();
+    return date.getFullYear() - this.year;
+  }
+}
+232)  method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
+
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+  present() {
+    return 'I have a ' + this.carname;
+  }
+}
+
+class Model extends Car {
+  constructor(brand, mod) {
+    super(brand);
+    this.model = mod;
+  }
+  show() {
+    return this.present() + ', it is a ' + this.model;
+  }
+}
+
+let myCar = new Model("Ford", "Mustang");
+document.getElementById("demo").innerHTML = myCar.show();
+233) To add getters and setters in the class
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_classes_getters
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+  get cnam() {
+    return this.carname;
+  }
+  set cnam(x) {
+    this.carname = x;
+  }
+}
+
+let myCar = new Car("Ford");
+
+document.getElementById("demo").innerHTML = myCar.cnam;
+234) use a local variable
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_classes_inherit
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+  present() {
+    return 'I have a ' + this.carname;
+  }
+}
+
+class Model extends Car {
+  constructor(brand, mod) {
+    super(brand);
+    this.model = mod;
+  }
+  show() {
+    return this.present() + ', it is a ' + this.model;
+  }
+}
+
+let myCar = new Model("Ford", "Mustang");
+document.getElementById("demo").innerHTML = myCar.show();
+235) If you want to use the myCar object inside the static method
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_class_static
+class Car {
+  constructor(name) {
+    this.name = name;
+  }
+  static hello(x) {
+    return "Hello " + x.name;
+  }
+}
+let myCar = new Car("Ford");
+document.getElementById("demo").innerHTML = Car.hello(myCar);
