@@ -27,7 +27,6 @@ JS WHERE TO
 
 
 
-
 4) Perform a single line comment
 
 js comments
