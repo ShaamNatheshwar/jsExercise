@@ -1120,7 +1120,7 @@ const x = ['shaam', 'Nath', 'gohan', 'goku'];
 for(let i in x){
 	console.log(x[i])
 }
-
+see u r going to tajmahal u enter tajmahal...then there will be some spots of tajmahal tht u liked i enters x and x which has i parts
 139) use for-each 
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_foreach
 const numbers = [3,4,1,7,9];
